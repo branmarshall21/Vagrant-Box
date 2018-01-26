@@ -1,9 +1,15 @@
-FROM busybox
+FROM node:8
 MAINTAINER Brandyn Marshall <branmarshall21@gmail.com>
 
-ADD index.html /www/index.html
+RUN apt-get update
+
+COPY . /app
+
+WORKDIR /app
+
+RUN npm install
 
 EXPOSE 8088
 
 # Create a basic webserver and sleep forever
-CMD httpd -p 8088 -h /www; tail -f /dev/null
+CMD ["node", "/app/index.js"]
