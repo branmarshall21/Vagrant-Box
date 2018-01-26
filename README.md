@@ -9,6 +9,11 @@ To get started, install Git, Docker and Vagrant.
 
 3.  https://www.vagrantup.com/downloads.html
 
-4.  Run "git clone 
+4.  Run these commands
+  $ git clone git@github.com:branmarshall21/test.git
+  $ vagrant up
+  
+5. Go to any web browser and click link below 
+  http://localhost:8088
 
 
