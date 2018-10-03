@@ -15,7 +15,7 @@ To get started, install Git, Docker, VirtualBox and Vagrant.
 
 4.  Run these commands
   
-  $ git clone git@github.com:branmarshall21/test.git
+  $ git clone git@github.com:branmarshall21/Vagrant-Box.git
   
   $ vagrant up
   
